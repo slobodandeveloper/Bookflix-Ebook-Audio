@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:5:5-15:19
+activity#com.folioreader.ui.folio.activity.ContentHighlightActivity
+ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:7:9-80
+	android:name
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:7:19-77
+activity#com.folioreader.ui.folio.activity.FolioActivity
+ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:9:9-13:15
+	android:configChanges
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:11:13-59
+	android:theme
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:12:13-56
+	android:name
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml:10:13-75
+uses-sdk
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		ADDED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
+		INJECTED from C:\Users\Zeus\Documents\My_Received_Files\Bookflix\folioreader\AndroidManifest.xml
