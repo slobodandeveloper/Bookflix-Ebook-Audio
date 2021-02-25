@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--<LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <com.facebook.ads.MediaView
+            android:id="@+id/native_ad_media"
+            android:layout_width="105dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="4dp"
+            android:paddingTop="9dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal">
+
+
+                <com.haris.sticto.TextviewUtil.UbuntuRegularTextview
+                    android:id="@+id/native_ad_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:text="147 Snooker Club and Fries"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/_10sdp" />
+
+                <LinearLayout
+                    android:id="@+id/ad_choices_container"
+                    android:layout_width="30dp"
+                    android:layout_height="15dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <com.haris.sticto.TextviewUtil.UbuntuLightTextview
+                android:id="@+id/native_ad_sponsored_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:minWidth="50dp"
+                android:paddingRight="7dp"
+                android:text="@string/feature"
+                android:textColor="@color/lightBlue"
+                android:textSize="@dimen/_9sdp" />
+
+
+            <com.haris.sticto.TextviewUtil.UbuntuLightTextview
+                android:id="@+id/native_ad_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="4"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_9sdp" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.facebook.ads.AdIconView
+                    android:id="@+id/native_ad_icon"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/native_ad_call_to_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/bg_call_to_action"
+                    android:minHeight="30dp"
+                    android:minWidth="75dp"
+                    android:paddingLeft="8dp"
+                    android:textAllCaps="false"
+                    android:paddingRight="8dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_8sdp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/ad_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:background="@android:color/white"
+        android:minHeight="250dp"
+        android:orientation="vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="2dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.facebook.ads.MediaView
+                android:id="@+id/native_ad_media"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:gravity="center" />
+
+
+            <LinearLayout
+                android:id="@+id/ad_choices_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="3dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingStart="0dp"
+            android:paddingEnd="5dp">
+
+            <com.facebook.ads.AdIconView
+                android:id="@+id/native_ad_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingStart="5dp">
+
+
+                <com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuMediumTextview
+                    android:id="@+id/native_ad_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp" />
+
+                <com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuLightTextview
+                    android:id="@+id/native_ad_sponsored_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="@color/tabLayout"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|end"
+            android:orientation="vertical"
+            android:layout_marginBottom="6dp"
+            android:paddingEnd="5dp">
+
+            <com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuLightTextview
+                android:id="@+id/native_ad_social_context"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="Free social"
+                android:textColor="@color/tabLayout"
+                android:textSize="12sp" />
+
+            <!--<com.haris.sticto.TextviewUtil.UbuntuRegularTextview
+                android:id="@+id/native_ad_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_9sdp" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/native_ad_call_to_action"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/bg_call_to_action"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

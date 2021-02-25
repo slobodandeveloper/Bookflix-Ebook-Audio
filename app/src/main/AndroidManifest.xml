@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    package="com.fixnowitdeveloper.bookflix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" /> <!-- used for drawing widget. This permission must be granted before calling AudioWidget.show(). -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- used for notifing user that he is about to remove widget when he drags it on remove widget icon. -->
+    <!-- This permission granted by default on Android 6.0+ devices. -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/iconobookflix"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconobookflix_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ActivityUtil.MyAddedBooks"></activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".ActivityUtil.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".ServiceUtil.MyIntentService"
+            android:exported="false" />
+        <service
+            android:name=".ServiceUtil.OreoIntentService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name=".ActivityUtil.Base"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Favourites"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Download"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.FeedTopic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FragmentUtil.Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FragmentUtil.ReadBookType"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Viewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ActivityUtil.AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.ListOfAuthor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.ReadBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.History"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Categories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.CategorizedBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.AuthorBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.ListOfBooks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.OnBoarding"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FragmentUtil.OnBoardFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityUtil.ForgotPassword"
+            android:screenOrientation="portrait" />
+        <!--
+             A receiver that will receive media buttons and send as
+            intents to your MediaBrowserServiceCompat implementation.
+            Required on pre-Lollipop. More information at <data android:scheme="content" />  <data android:mimeType="application/pdf" />
+            http://developer.android.com/reference/android/support/v4/media/session/MediaButtonReceiver.html
+        -->
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ActivityUtil.LocalBookReader">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="application/pdf"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityUtil.DeeplinkViewer">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="${hostName}"
+                    android:pathPrefix="/books4u"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

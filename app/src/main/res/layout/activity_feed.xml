@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    tools:context=".ActivityUtil.FeedTopic">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingStart="10dp">
+
+
+            <com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuRegularTextview
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feed_title"
+                android:textColor="?attr/colorHeading"
+                android:textSize="19sp" />
+
+
+            <com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuRegularTextview
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/feed_tagline"
+                android:textColor="@color/app_green"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_categories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
+            android:paddingTop="0dp"></android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical|end"
+            android:orientation="horizontal"
+            android:paddingEnd="20dp">
+
+
+            <com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuMediumTextview
+                android:id="@+id/txt_continue"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_share"
+                android:gravity="center"
+                android:text="@string/contin"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"></LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

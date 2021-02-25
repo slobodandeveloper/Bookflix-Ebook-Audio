@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ExtensiblePageIndicator">
+        <attr name="indicatorRadius" format="dimension" />
+        <attr name="indicatorPadding" format="dimension" />
+        <attr name="indicatorInactiveColor" format="color" />
+        <attr name="indicatorActiveColor" format="color" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="ListOfColour">
+        <attr name="colorHeading" format="color" />
+        <attr name="colorTagline" format="color" />
+        <attr name="colorBackground" format="color" />
+        <attr name="colorButton" format="color" />
+        <attr name="colorArrow" format="color" />
+        <attr name="colorProgress" format="color" />
+        <attr name="colorCard" format="color" />
+        <attr name="colorSelector" format="color" />
+        <attr name="colorTrackOff" format="color" />
+        <attr name="colorTrackOn" format="color" />
+        <attr name="colorBackgroundLight" format="color" />
+        <attr name="colorReadingBar" format="color" />
+    </declare-styleable>
+
+
+</resources>

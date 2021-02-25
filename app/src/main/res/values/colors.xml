@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Color for Day Mode-->
+
+    <color name="colorPrimary">#606E82</color>
+    <color name="colorPrimaryDark">#606E82</color>
+    <color name="colorAccent">#606E82</color>
+    <color name="colorHeading">#606E82</color>
+    <color name="tagline">#cacfd7</color>
+    <color name="colorButtonDay">#606E82</color>
+    <color name="yellow">#FFB01A</color>
+    <color name="colorProgressDay">#606E82</color>
+    <color name="colorCardDay">#ffffffff</color>
+    <color name="colorSelectorDay">#606E82</color>
+    <color name="colorSwitchTrackOnDay">#606E82</color>
+    <color name="colorSwitchTrackOffDay">#DBDFE5</color>
+    <color name="colorBackgroundLightDay">#2ccccccc</color>
+    <color name="colorReadingBarDay">#ffd500</color>
+
+    <!--Color for Night Mode-->
+
+    <color name="colorPrimaryNight">#000000</color>
+    <color name="colorPrimaryDarkNight">#000000</color>
+    <color name="colorAccentNight">#6596d6</color>
+    <color name="colorBackgroundNight">#000000</color>
+    <color name="colorButtonNight">#6596d6</color>
+    <color name="colorHeadingNight">#ffffff</color>
+    <color name="colorTaglineNight">#606E82</color>
+    <color name="colorArrowNight">#6596d6</color>
+    <color name="colorProgressNight">#6596d6</color>
+    <color name="colorCardNight">#0e0e0e</color>
+    <color name="colorSelectorNight">#6596d6</color>
+    <color name="colorSwitchTrackOnNight">#6596d6</color>
+    <color name="colorSwitchTrackOffNight">#606E82</color>
+    <color name="colorBackgroundLightNight">#000000</color>
+    <color name="colorReadingBarNight">#6596d6</color>
+
+    <!--Color for Extensible Page Indicator-->
+
+    <color name="fpi_default_indicator_inactive_color">#80FFFFFF</color>
+    <color name="fpi_default_indicator_active_color">#FFFFFF</color>
+
+    <color name="lightBlue">#585f77</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightWhite">#71f7f7f7</color>
+    <color name="lightWhiteTrans">#4bf7f7f7</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="light_grey">#2ccccccc</color>
+    <color name="grey">#C0BFC2</color>
+    <color name="tags">#959899</color>
+    <color name="tabSelector">#07dfae</color>
+    <color name="tabLayout">#b82443</color>
+    <color name="blackTransparent">#51000000</color>
+    <color name="pager_unselected">#aff7f7f7</color>
+
+
+    <!--Color for Bubble Picker-->
+
+    <color name="blueStart">#4EFFF3</color>
+    <color name="blueEnd">#df0ca6f9</color>
+    <color name="purpleStart">#bb8c7fec</color>
+    <color name="yellowEnd">#c3ffb01a</color>
+    <color name="roseStart">#FF6A00</color>
+
+    <color name="brownStart">#a67c52</color>
+    <color name="orangeStart">#fdc689</color>
+    <color name="orangeEnd">#f9ad81</color>
+
+
+    <color name="bg_google">#DE4337</color>
+    <color name="bg_facebook">#3A559F</color>
+
+
+</resources>

@@ -1,0 +1,266 @@
+<resources>
+
+    <!--String for Error Messages-->
+
+    <string name="internet_not_available">Internet no disponible</string>
+    <string name="download_error">Error en la descarga</string>
+
+    <!--String for General Messages-->
+
+    <string name="keyword_tagline">Seleccione una palabra clave para fondos de pantalla específicos</string>
+    <string name="swipe_circle">Toque el círculo para desbloquear</string>
+    <string name="viewer">Estado</string>
+    <string name="downloading">Descargando</string>
+    <string name="download_completed">Descarga completada</string>
+    <string name="search">Buscar</string>
+    <string name="forgot">Correo electrónico registrado para enviarle la contraseña a su correo.</string>
+    <string name="update">Actualizar</string>
+
+    <!--String for Toast Messages-->
+
+    <string name="account_banned">Tu cuenta ha sido baneada por el administrador</string>
+    <string name="authentication">Autenticación</string>
+    <string name="email_empty">Email está en blanco</string>
+    <string name="password_empty">Contraseña está en blanco</string>
+    <string name="empty_first_name">Nombre está en blanco</string>
+    <string name="empty_last_name">Apellidos está en blanco</string>
+    <string name="password_mis_match">La contraseña no coincide</string>
+    <string name="select_picture">Selecciona una imagen</string>
+    <string name="phone_empty">Teléfono en blanco</string>
+    <string name="image_added">La imagen se ha guardado correctamente</string>
+
+    <!--String for Base Fragment-->
+    <string name="trending_photos">Fotos</string>
+    <string name="trending_videos">Videos</string>
+    <string name="category">Categorias</string>
+    <string name="status">Fotos</string>
+    <string name="video">Videos</string>
+
+    <!--String for Navigation Drawer-->
+
+    <string name="home">Home</string>
+    <string name="lockscreen">Pantalla bloqueada</string>
+    <string name="keyword">Palabras clave</string>
+    <string name="favourites">Favoritos</string>
+    <string name="download">Descargas</string>
+    <string name="share">Compartir con amigos</string>
+    <string name="rate">Valorar la aplicación</string>
+
+    <!--String for Menu Text-->
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favourites">Favoritos</string>
+    <string name="menu_download">Descargas</string>
+    <string name="about_us">Política de privacidad</string>
+    <string name="using_camera">Usar cámara</string>
+    <string name="using_gallery">Usar galería</string>
+    <string name="picture_selector">Seleccciona una imagen</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="register">Registrarme</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Registrarme</string>
+    <string name="skip">Omitir este paso</string>
+    <string name="reset">Enviar</string>
+
+    <string name="remember_me">Recordar</string>
+    <string name="forgot_password">He olviado la contraseña</string>
+    <string name="already_have_account">¿Ya tienes una cuenta ?</string>
+    <string name="did_not_create_account">¿No tienes una cuenta?</string>
+
+    <!--String for Category Title-->
+
+    <string name="car">Cars</string>
+    <string name="nature">Nature</string>
+    <string name="animal">Dog</string>
+    <string name="love">Love</string>
+    <string name="landscape">Landscape</string>
+    <string name="flowers">Flowers</string>
+    <string name="travel">Travel</string>
+    <string name="bird">Bird</string>
+    <string name="season">Season</string>
+    <string name="coffee">Coffee</string>
+    <string name="ocean">Ocean</string>
+    <string name="bikes">Bikes</string>
+    <string name="fitness">Fitness</string>
+    <string name="interior">Interior</string>
+    <string name="valentines">Valentines</string>
+    <string name="wild">Wild life</string>
+    <string name="rain">Rain</string>
+
+
+    <!--String for set Wallpaper dialog-->
+
+    <string name="home_screen">Home Screen</string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="both">Both Screen</string>
+
+
+    <!--String for Place Holder-->
+
+    <string name="no_favourites">¡No hay favoritos añadidos!</string>
+    <string name="no_favourites_tagline">No has añadido ningún libro en favoritos.</string>
+
+    <string name="no_download">¡No hay descargas!</string>
+    <string name="no_download_tagline">No has descargado ningún libro.</string>
+
+    <string name="search_title">Comienza a buscar</string>
+    <string name="search_tagline">Puedes buscar libros o autores.</string>
+
+    <string name="no_photo">No hay imágenes disponibles</string>
+    <string name="no_photo_tagline">Actualmente no hay imágenes.</string>
+
+    <string name="no_video">No hay videos disponibles</string>
+    <string name="no_video_tagline">Actualmente no hay videos.</string>
+
+    <string name="no_comment_title">No hay comentarios</string>
+    <string name="no_comment_tagline">Actualmente no hay comentarios.</string>
+
+    <string name="no_artist">No hay autores</string>
+    <string name="no_artist_tagline">Actualmente no hay autores.</string>
+
+    <string name="no_playlist">No hay playlist</string>
+    <string name="no_playlist_tagline">Actualmente no hay playlist.</string>
+
+    <string name="no_book">No hay libros</string>
+    <string name="no_book_tagline">Actualmente no hay libros.</string>
+
+
+    <!--MENU DE INICIAR SESION-->
+
+
+    <string name="title_01">Inica sesión</string>
+    <string name="board_01">Podrás valorar los libros y,\nescribir comentarios.</string>
+
+    <string name="title_02">Favoritos</string>
+    <string name="board_02">Guarda tus libros en favoritos.</string>
+
+    <string name="title_03">Únete a la comunidad Booflix</string>
+    <string name="board_03">Accede totalmente gratis a funciones extra.</string>
+
+    <!--String for Permission Messages-->
+
+    <string name="external_storage_permission">Se necesita el permiso de almacenamiento.</string>
+    <string name="read_phone_state_permission">Se necesita el permiso de la red.</string>
+
+
+    <!--String for Edit Text hint-->
+
+    <string name="email_address">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="phone">Teléfono</string>
+    <string name="profile">Perfil</string>
+    <string name="picture">Imagen</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_type">Selecciona un tipo</string>
+    <string name="comment">Comentarios</string>
+    <string name="submit">Enviar</string>
+    <string name="write_comment">Escribe tu comentario</string>
+    <string name="add_comment">Añadir comentario</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="progress">Progreso</string>
+    <string name="apply">Aplicar</string>
+    <string name="no_status">Estado no disponible</string>
+    <string name="wt_status">Estado Whatsapp</string>
+    <string name="status_02">Estado</string>
+    <string name="require_login">Necesario iniciar sesión.</string>
+    <string name="load_ad">Cargando anuncio</string>
+
+
+
+
+    <!--String for Home screen-->
+
+    <string name="featured">Destacados</string>
+    <string name="streams">Sonidos</string>
+    <string name="top">Top</string>
+    <string name="trending">Popular</string>
+    <string name="newly">Nuevo</string>
+    <string name="artist">Autores</string>
+    <string name="player">Reproduciendo ahora</string>
+    <string name="live_broadcast">En directo</string>
+    <string name="next">Siguiente</string>
+    <string name="favourite">Favoritos</string>
+    <string name="setting">Ajustes</string>
+    <string name="overlay">Activar superposición del reproductor </string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="loading_configuration">Cargando</string>
+    <string name="add_playlist">Añadir Playlist</string>
+    <string name="done">Terminado</string>
+    <string name="add_your_playlist">Escribe tu playlist</string>
+    <string name="my_download">Mis descargas</string>
+    <string name="my_favourites">Mis favoritos</string>
+    <string name="my_playlist">Mi historial</string>
+    <string name="delete">Eliminar</string>
+    <string name="already_downloaded">Ya está descargado</string>
+    <string name="collection">Categorias</string>
+    <string name="search_book">¿Qué libro te gustaría leer hoy?</string>
+    <string name="for_you">Recomendado para ti</string>
+    <string name="read">Leer</string>
+    <string name="special">Especial</string>
+    <string name="more">+</string>
+    <string name="categories">Categorias</string>
+    <string name="popular">Populares</string>
+    <string name="personalized">Personalizado</string>
+    <string name="review">Valoraciones</string>
+    <string name="books">Libros</string>
+    <string name="about">Sobre Bookflix</string>
+    <string name="work">Trabajo</string>
+    <string name="popular_book">Libros populares</string>
+    <string name="reading_list">Leyendo lista</string>
+    <string name="share_author">Compartir</string>
+    <string name="author_detail">Detalles del Autor</string>
+    <string name="download_book">Descargaar</string>
+    <string name="description">Descripción</string>
+    <string name="by">Autor: </string>
+    <string name="related_books">Libros relacionados</string>
+    <string name="book_detail">Detalles del libro</string>
+    <string name="feed_title">Selecciona una categoría.</string>
+    <string name="feed_tagline">Te recomendaremos libros de tu interés.</string>
+    <string name="contin">Continuar</string>
+    <string name="write_review">Escribir valoración</string>
+    <string name="review_dialog">¿Como calificaría este libro?</string>
+    <string name="report_dialog">¿Qué cosas no te han gustado del libro?</string>
+    <string name="write_your_review_hint">Escribe tu opinión sobre el libro.</string>
+    <string name="filter">¿Qué te gustaría buscar?</string>
+    <string name="ebook">Libros</string>
+    <string name="author">Autores</string>
+    <string name="book_reader">Lector</string>
+    <string name="book_url">"<iframe style='border: none;' height='100%' src='http://docs.google.com/viewer?url=%s&amp;embedded=true' width='100%'></iframe>"</string>
+    <string name="loading">Cargando</string>
+    <string name="history">Mi historial</string>
+    <string name="pdf">PDF Libros</string>
+    <string name="epub">EPUB Libros</string>
+    <string name="latest_book">Últimos libros</string>
+    <string name="latest">Nuevos</string>
+    <string name="general">General</string>
+    <string name="network">Más ajustes</string>
+    <string name="push_notification">Activar notificaciones</string>
+    <string name="download_only_on_wifi">Descargar solo por WIFI</string>
+    <string name="day_night_mode">Activar modo Día/Noche</string>
+    <string name="skip_des">¿Quieres salir?</string>
+    <string name="choose_sign_in">Registrate para acceder a nuevas funciones</string>
+    <string name="my_profile">Perfil</string>
+    <string name="download_wifi_setting">WIFI no disponible.</string>
+    <string name="discover">Bookflix</string>
+
+    <string name="author_detail_format">%s Se han publicado los %s libros y su calificación general es %s y una pequeña biografía al respecto %s</string>
+    <string name="list_of_author">Lista de autores</string>
+    <string name="my_feed">Mi interés</string>
+    <string name="continue_reading">Continuar leyendo</string>
+    <string name="google_login">Google</string>
+    <string name="facebook_login">Facebook</string>
+    <string name="or">O</string>
+
+
+    <string name="camera_permission">Se necesita permiso de la cámara.</string>
+
+    <string name="sharetext">¡ 📚 Descarga Bookflix 📚 !</string>
+
+    <string name="find">Find</string>
+    <string name="add_book">Add Book</string>
+    <string name="my_added_books">My Added Books</string>
+
+</resources>

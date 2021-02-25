@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "198815152761",
+    "firebase_url": "https://fixnowitdeveloper-3acb7.firebaseio.com",
+    "project_id": "fixnowitdeveloper-3acb7",
+    "storage_bucket": "fixnowitdeveloper-3acb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198815152761:android:b1a8db48db9c79d64b32a8",
+        "android_client_info": {
+          "package_name": "com.example.meditation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198815152761-9sjn2d78isijv89kjeg49mobdb8246p3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meditation",
+            "certificate_hash": "c80f7bc826eafa9cd32aed02f1e337ca5dc805ee"
+          }
+        },
+        {
+          "client_id": "198815152761-4f728gh2mgtg5d1cbu0oaqqg2br47nfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtzzHuUI3wAAZawF_7623v6stapI3KyP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198815152761-4f728gh2mgtg5d1cbu0oaqqg2br47nfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198815152761:android:355459d534b364c24b32a8",
+        "android_client_info": {
+          "package_name": "com.fixnowitdeveloper.bookflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198815152761-4f728gh2mgtg5d1cbu0oaqqg2br47nfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtzzHuUI3wAAZawF_7623v6stapI3KyP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198815152761-4f728gh2mgtg5d1cbu0oaqqg2br47nfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198815152761:android:1d7da35b2533f2aa4b32a8",
+        "android_client_info": {
+          "package_name": "com.fixnowitdeveloper.cineflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198815152761-4f728gh2mgtg5d1cbu0oaqqg2br47nfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtzzHuUI3wAAZawF_7623v6stapI3KyP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198815152761-4f728gh2mgtg5d1cbu0oaqqg2br47nfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

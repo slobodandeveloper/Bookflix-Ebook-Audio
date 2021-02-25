@@ -1,0 +1,144 @@
+<resources>
+
+    <!-- Keywords application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemTextAppearance">@style/menu_item_color</item>
+
+        <item name="colorHeading">@color/colorHeading</item>
+        <item name="colorTagline">@color/tagline</item>
+        <item name="colorBackground">@color/white</item>
+        <item name="colorButton">@color/colorButtonDay</item>
+        <item name="colorArrow">@color/yellow</item>
+        <item name="colorProgress">@color/colorProgressDay</item>
+        <item name="colorCard">@color/colorCardDay</item>
+        <item name="colorSelector">@color/colorSelectorDay</item>
+        <item name="colorTrackOn">@color/colorSwitchTrackOnDay</item>
+        <item name="colorTrackOff">@color/colorSwitchTrackOffDay</item>
+        <item name="colorBackgroundLight">@color/colorBackgroundLightDay</item>
+        <item name="colorReadingBar">@color/colorReadingBarDay</item>
+
+    </style>
+
+    <!-- Night application theme. -->
+    <style name="AppTheme.Base.Night" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="android:itemTextAppearance">@style/menu_item_color</item>
+
+        <item name="colorHeading">@color/colorHeadingNight</item>
+        <item name="colorTagline">@color/colorTaglineNight</item>
+        <item name="colorBackground">@color/colorBackgroundNight</item>
+        <item name="colorButton">@color/colorButtonNight</item>
+        <item name="colorArrow">@color/colorArrowNight</item>
+        <item name="colorProgress">@color/colorProgressNight</item>
+        <item name="colorCard">@color/colorCardNight</item>
+        <item name="colorSelector">@color/colorSelectorNight</item>
+        <item name="colorTrackOn">@color/colorSwitchTrackOnNight</item>
+        <item name="colorTrackOff">@color/colorSwitchTrackOffNight</item>
+        <item name="colorBackgroundLight">@color/colorBackgroundLightNight</item>
+        <item name="colorReadingBar">@color/colorReadingBarNight</item>
+
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="CheckBoxTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:itemTextAppearance">@style/menu_item_color</item>
+    </style>
+
+
+    <style name="menu_item_color">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MusicCoverView">
+        <attr name="shape" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="circle" value="1" />
+        </attr>
+        <attr name="trackColor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ImageScaleView">
+        <attr name="matrixType" format="enum">
+            <enum name="top_center" value="0" />
+            <enum name="bottom_center" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+
+
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.OptionsMenuItem" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu" />
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/pump_top</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu" />
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Reflect">
+        <item name="android:windowEnterAnimation">@anim/pump_bottom</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+
+</resources>

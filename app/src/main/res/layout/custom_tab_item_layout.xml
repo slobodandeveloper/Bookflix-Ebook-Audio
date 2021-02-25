@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fixnowitdeveloper.bookflix.TextviewUtil.UbuntuRegularTextview xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txt_tab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:textColor="?attr/colorHeading"
+    android:textSize="14sp" />

@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name" translatable="false">Bookflix</string>
+
+    <!--String for Error Messages-->
+
+    <string name="internet_not_available">Internet not available</string>
+    <string name="download_error">Error while downloading</string>
+
+    <!--String for General Messages-->
+
+    <string name="keyword_tagline">Select keyword for specific wallpapers</string>
+    <string name="swipe_circle">Touch circle to unlock</string>
+    <string name="viewer">Status</string>
+    <string name="downloading">Downloading</string>
+    <string name="download_completed">Download Completed</string>
+    <string name="search">Search</string>
+    <string name="forgot">We just need your registered Email id to sent you \n password reset instructions</string>
+    <string name="update">Update</string>
+
+    <!--String for Toast Messages-->
+
+
+    <string name="account_banned">Sorry your account is banned by admin</string>
+    <string name="authentication">Authentication</string>
+    <string name="email_empty">Email is empty</string>
+    <string name="password_empty">Password Empty</string>
+    <string name="empty_first_name">Empty First Name</string>
+    <string name="empty_last_name">Empty Last Name</string>
+    <string name="password_mis_match">Password did not match</string>
+    <string name="select_picture">Kindly select picture</string>
+    <string name="phone_empty">Empty Phone</string>
+    <string name="image_added">Image Saved Successfully</string>
+
+    <!--String for Base Fragment-->
+
+    <string name="trending_photos">Photos</string>
+    <string name="trending_videos">Videos</string>
+    <string name="category">Categories</string>
+    <string name="status">Photos</string>
+    <string name="video">Videos</string>
+
+    <!--String for Navigation Drawer-->
+
+    <string name="home">Home</string>
+    <string name="lockscreen">Lock Screen</string>
+    <string name="keyword">Keywords</string>
+    <string name="favourites">Favourites</string>
+    <string name="download">Downloads</string>
+    <string name="share">Share with friends</string>
+    <string name="rate">Rate our app</string>
+
+    <!--String for Menu Text-->
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_download">Download</string>
+    <string name="about_us">Privacy Policy</string>
+    <string name="using_camera">Using Camera</string>
+    <string name="using_gallery">Using Gallery</string>
+    <string name="picture_selector">Select Picture</string>
+    <string name="create_account">Create Account</string>
+    <string name="register">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="skip">Skip</string>
+    <string name="reset">Reset</string>
+
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="already_have_account">Already have an account ?</string>
+    <string name="did_not_create_account">Don\'t have an account\t?</string>
+
+    <!--String for Category Title-->
+
+    <string name="car">Cars</string>
+    <string name="nature">Nature</string>
+    <string name="animal">Dog</string>
+    <string name="love">Love</string>
+    <string name="landscape">Landscape</string>
+    <string name="flowers">Flowers</string>
+    <string name="travel">Travel</string>
+    <string name="bird">Bird</string>
+    <string name="season">Season</string>
+    <string name="coffee">Coffee</string>
+    <string name="ocean">Ocean</string>
+    <string name="bikes">Bikes</string>
+    <string name="fitness">Fitness</string>
+    <string name="interior">Interior</string>
+    <string name="valentines">Valentines</string>
+    <string name="wild">Wild life</string>
+    <string name="rain">Rain</string>
+
+
+    <!--String for set Wallpaper dialog-->
+
+    <string name="home_screen">Home Screen</string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="both">Both Screen</string>
+
+    <!--String for Admob Banner Ads-->
+
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!--String for Place Holder-->
+
+    <string name="no_favourites">No Favourites Available !</string>
+    <string name="no_favourites_tagline">You did not add any stream in Favourites</string>
+
+    <string name="no_download">No Download Available !</string>
+    <string name="no_download_tagline">You did not download anything until yet</string>
+
+    <string name="search_title">Start Searching Now</string>
+    <string name="search_tagline">Kindly search anything you want\nYou can search Books or Authors</string>
+
+    <string name="no_photo">No Picture Available</string>
+    <string name="no_photo_tagline">Currently no picture is available\nkindly check at another time</string>
+
+    <string name="no_video">No Video Available</string>
+    <string name="no_video_tagline">Currently no video is available\nkindly check at another time</string>
+
+    <string name="no_comment_title">No Comment Available</string>
+    <string name="no_comment_tagline">Currently no comment is available\nKindly check at another time</string>
+
+    <string name="no_artist">No Author Available</string>
+    <string name="no_artist_tagline">Currently there are not Author\nKindly check at another time</string>
+
+    <string name="no_playlist">No Playlist Available</string>
+    <string name="no_playlist_tagline">Currently there is no playlist available\nKindly create it now</string>
+
+    <string name="no_book">No Book Available</string>
+    <string name="no_book_tagline">Currently books are not available\nKindly check out at another time</string>
+
+
+    <!--MENU DE INICIAR SESION-->
+
+
+    <string name="title_01">Login and get unique features.</string>
+    <string name="board_01">You will can doing reviews,\n write comments and save\n your books in favorites.</string>
+
+    <string name="title_02">Favorite books</string>
+    <string name="board_02">Save the books you like as favorites.</string>
+
+    <string name="title_03">Bookflix Community</string>
+    <string name="board_03">Publish your opinion and evaluation of the book\n , participate in the Bookflix community.</string>
+
+    <!--String for Permission Messages-->
+
+    <string name="external_storage_permission">It need Storage permission for app to work</string>
+    <string name="read_phone_state_permission">It need network state permission for app to work</string>
+
+
+    <!--String for Edit Text hint-->
+
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone">Cell Phone</string>
+    <string name="profile">Profile</string>
+    <string name="picture">Picture</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_type">Select Type</string>
+    <string name="comment">Comments</string>
+    <string name="submit">Submit</string>
+    <string name="write_comment">Write your Comment</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="logout">Logout</string>
+    <string name="progress">Progress</string>
+    <string name="apply">Apply</string>
+    <string name="no_status">No Status Available</string>
+    <string name="wt_status">Whatsapp Status</string>
+    <string name="status_02">Status</string>
+    <string name="require_login">It need to login into your account</string>
+    <string name="load_ad">Load Ad</string>
+
+    <!--String for Home screen-->
+
+    <string name="featured">Featured</string>
+    <string name="streams">Songs</string>
+    <string name="top">Top</string>
+    <string name="trending">Popular</string>
+    <string name="newly">New</string>
+    <string name="artist">Author</string>
+    <string name="player">Now Playing</string>
+    <string name="live_broadcast">Live Broadcast</string>
+    <string name="next">Next</string>
+    <string name="favourite">Favourite</string>
+    <string name="setting">Setting</string>
+    <string name="overlay">Enable Overlay music player </string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="loading_configuration">Loading</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="done">Done</string>
+    <string name="add_your_playlist">Write your playlist</string>
+    <string name="my_download">My Downloads</string>
+    <string name="my_favourites">My Favourites</string>
+    <string name="my_playlist">My History</string>
+    <string name="delete">Delete</string>
+    <string name="already_downloaded">Already Downloaded</string>
+    <string name="collection">Collection</string>
+    <string name="search_book">Which book would you like to read today ?</string>
+    <string name="for_you">For You</string>
+    <string name="read">Read</string>
+    <string name="special">Special</string>
+    <string name="more">+</string>
+    <string name="categories">Categories</string>
+    <string name="popular">Popular</string>
+    <string name="personalized">Personalized</string>
+    <string name="review">Reviews</string>
+    <string name="books">Books</string>
+    <string name="about">About</string>
+    <string name="work">Work</string>
+    <string name="popular_book">Popular Books</string>
+    <string name="reading_list">Reading List</string>
+    <string name="share_author">Share</string>
+    <string name="author_detail">Author Detail</string>
+    <string name="download_book">Download</string>
+    <string name="description">Description</string>
+    <string name="by">By</string>
+    <string name="related_books">Related Books</string>
+    <string name="book_detail">Book Detail</string>
+    <string name="feed_title">Choose the tag you are interested in</string>
+    <string name="feed_tagline">We will recommend your personality based on your \nchoice and taste</string>
+    <string name="contin">Continue</string>
+    <string name="write_review">Write Review</string>
+    <string name="review_dialog">How would you rate the quality\nand content of book ?</string>
+    <string name="report_dialog">Kindly write which thing is not\nappropriate in this book ?</string>
+    <string name="write_your_review_hint">Kindly write your reviews in given box</string>
+    <string name="filter">What would you like to search ?</string>
+    <string name="ebook">Books</string>
+    <string name="author">Author</string>
+    <string name="book_reader">Reader</string>
+    <string name="book_url">"<iframe style='border: none;' height='100%' src='http://docs.google.com/viewer?url=%s&amp;embedded=true' width='100%'></iframe>"</string>
+    <string name="loading">Loading</string>
+    <string name="history">My History</string>
+    <string name="pdf">Pdf Books</string>
+    <string name="epub">Epub Books</string>
+    <string name="latest_book">Latest Books</string>
+    <string name="latest">Latest</string>
+    <string name="general">General</string>
+    <string name="network">Network</string>
+    <string name="push_notification">Enable Push Notification</string>
+    <string name="download_only_on_wifi">Download only on Wifi</string>
+    <string name="day_night_mode">Enable Day / Night mode</string>
+    <string name="skip_des">Want to Skip ?</string>
+    <string name="choose_sign_in">Sign in to get started right now !</string>
+    <string name="my_profile">My Profile</string>
+    <string name="download_wifi_setting">Wifi are not available , kindly check out App Settings</string>
+    <string name="discover">Discover</string>
+
+    <string name="author_detail_format">%s have published the %s books and its overall rating is %s and some little bio about it %s</string>
+    <string name="list_of_author">List of Authors</string>
+    <string name="my_feed">My Feed</string>
+    <string name="continue_reading">Continue Reading</string>
+    <string name="google_login">Google</string>
+    <string name="facebook_login">Facebook</string>
+    <string name="or">OR</string>
+
+    <!--Facebook Sign In Credentials-->
+
+    <string name="facebook_app_id">735433507227132</string>
+    <string name="fb_login_protocol_scheme">fb735433507227132</string>
+
+    <string name="camera_permission">It need Camera permission for app to work</string>
+
+    <string name="sharetext">Check out</string>
+    <string name="find">Find</string>
+    <string name="add_book">Add Book</string>
+    <string name="my_added_books">My Added Books</string>
+
+
+</resources>
